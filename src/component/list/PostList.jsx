@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useSyncExternalStore } from "react";
 import styled from "styled-components";
 import PostListItem from "./PostListitem";
 
@@ -34,3 +34,5 @@ function PostList(props) {
     </Wrapper>
   );
 }
+
+export default PostList;
